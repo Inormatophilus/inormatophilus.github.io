@@ -4,13 +4,14 @@
     {
       "name": "gmtw-svelte-dev",
       "runtimeExecutable": "cmd",
-      "runtimeArgs": [
-        "/c",
-        "npm",
-        "run",
-        "dev"
-      ],
+      "runtimeArgs": ["/c", "npm", "run", "dev", "--", "--host", "127.0.0.1"],
       "port": 5173
+    },
+    {
+      "name": "gmtw-svelte-preview",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "npm", "run", "preview", "--", "--host", "127.0.0.1"],
+      "port": 4173
     }
   ]
 }
